@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>piro. — Contatti</title>
+  <meta name="description" content="Contatta Matteo Pirovano — video maker a Milano. Email, social e curriculum.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ── Navigation ── -->
+  <nav class="nav" id="nav">
+    <div class="nav__inner container">
+      <a href="index.html" class="nav__logo">piro<span class="copper-dot">.</span></a>
+      <ul class="nav__links" id="navLinks">
+        <li><a href="index.html" class="nav__link"
+          data-it="Home" data-en="Home">Home</a></li>
+        <li><a href="about.html" class="nav__link"
+          data-it="Chi sono" data-en="About">Chi sono</a></li>
+        <li><a href="projects.html" class="nav__link"
+          data-it="Progetti" data-en="Projects">Progetti</a></li>
+        <li><a href="contacts.html" class="nav__link nav__cta"
+          data-it="Contatti" data-en="Contact">Contatti</a></li>
+      </ul>
+      <div class="nav__right">
+        <button class="lang-toggle" id="langToggle" aria-label="Cambia lingua">
+          <span id="langLabel">EN</span>
+        </button>
+        <button class="nav__hamburger" id="hamburger" aria-label="Menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ── Page hero ── -->
+  <section class="page-hero">
+    <div class="container">
+      <div class="section-divider"></div>
+      <p class="overline"
+        data-it="CONTATTI" data-en="CONTACT">CONTATTI</p>
+      <h1 class="page-hero__title"
+        data-it="Lavoriamo insieme<span class=&quot;copper-dot&quot;>.</span>"
+        data-en="Let's work together<span class=&quot;copper-dot&quot;>.</span>">
+        Lavoriamo insieme<span class="copper-dot">.</span>
+      </h1>
+      <p class="page-hero__sub"
+        data-it="Hai un progetto in mente? Scrivimi, rispondo sempre."
+        data-en="Have a project in mind? Write to me, I always reply.">
+        Hai un progetto in mente? Scrivimi, rispondo sempre.
+      </p>
+    </div>
+  </section>
+
+  <!-- ── Contacts section ── -->
+  <section class="contacts-section">
+    <div class="container">
+
+      <div class="contacts-grid">
+
+        <!-- Email block -->
+        <div class="fade-in">
+          <p class="contacts-block__label"
+            data-it="EMAIL" data-en="EMAIL">EMAIL</p>
+          <h2 class="contacts-block__title"
+            data-it="Scrivimi direttamente" data-en="Write to me directly">Scrivimi direttamente</h2>
+          <a href="mailto:matteopirovano3@gmail.com" class="contacts-block__email">matteopirovano3@gmail.com</a>
+        </div>
+
+        <!-- Social block -->
+        <div class="fade-in">
+          <p class="contacts-block__label"
+            data-it="SOCIAL NETWORK" data-en="SOCIAL NETWORK">SOCIAL NETWORK</p>
+          <h2 class="contacts-block__title"
+            data-it="Seguimi sui social" data-en="Follow me on social">Seguimi sui social</h2>
+          <ul class="social-list">
+            <li>
+              <a href="https://www.linkedin.com/in/matteo-pirovano-8906a6246/" class="social-item" target="_blank" rel="noopener">
+                <span class="social-item__icon">in</span>
+                <span class="social-item__name">LinkedIn</span>
+                <span class="social-item__handle">Matteo Pirovano</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- CV block -->
+      <div class="cv-block fade-in">
+        <div class="cv-block__text">
+          <h3 class="cv-block__title"
+            data-it="Curriculum Vitae" data-en="Curriculum Vitae">Curriculum Vitae</h3>
+          <p class="cv-block__sub"
+            data-it="Scarica il mio CV aggiornato in formato PDF."
+            data-en="Download my updated CV in PDF format.">
+            Scarica il mio CV aggiornato in formato PDF.
+          </p>
+        </div>
+        <a href="#" class="btn btn--primary--dark"
+          data-it="Scarica CV" data-en="Download CV">Scarica CV</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── Footer ── -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer__left">
+          <h2 class="footer__cta"
+            data-it="Lavoriamo insieme<span class=&quot;copper-dot&quot;>.</span>"
+            data-en="Let's work together<span class=&quot;copper-dot&quot;>.</span>">
+            Lavoriamo insieme<span class="copper-dot">.</span>
+          </h2>
+          <a href="mailto:matteopirovano3@gmail.com" class="footer__email">matteopirovano3@gmail.com</a>
+        </div>
+        <div class="footer__right">
+          <nav class="footer__socials" aria-label="Social links">
+            <a href="https://www.linkedin.com/in/matteo-pirovano-8906a6246/" class="footer__social-link" target="_blank" rel="noopener">LinkedIn</a>
+          </nav>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <a href="index.html" class="footer__logo">piro<span class="copper-dot">.</span></a>
+        <p class="footer__copy"
+          data-it="© 2026 Matteo Pirovano" data-en="© 2026 Matteo Pirovano">© 2026 Matteo Pirovano</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/i18n.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

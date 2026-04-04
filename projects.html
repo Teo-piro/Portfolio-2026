@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>piro. — Progetti</title>
+  <meta name="description" content="Tutti i progetti di Matteo Pirovano: podcast, YouTube, social media, motion graphics.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ── Navigation ── -->
+  <nav class="nav" id="nav">
+    <div class="nav__inner container">
+      <a href="index.html" class="nav__logo">piro<span class="copper-dot">.</span></a>
+      <ul class="nav__links" id="navLinks">
+        <li><a href="index.html" class="nav__link"
+          data-it="Home" data-en="Home">Home</a></li>
+        <li><a href="about.html" class="nav__link"
+          data-it="Chi sono" data-en="About">Chi sono</a></li>
+        <li><a href="projects.html" class="nav__link"
+          data-it="Progetti" data-en="Projects">Progetti</a></li>
+        <li><a href="contacts.html" class="nav__link nav__cta"
+          data-it="Contatti" data-en="Contact">Contatti</a></li>
+      </ul>
+      <div class="nav__right">
+        <button class="lang-toggle" id="langToggle" aria-label="Cambia lingua">
+          <span id="langLabel">EN</span>
+        </button>
+        <button class="nav__hamburger" id="hamburger" aria-label="Menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ── Page hero ── -->
+  <section class="page-hero">
+    <div class="container">
+      <div class="section-divider"></div>
+      <p class="overline"
+        data-it="TUTTI I LAVORI" data-en="ALL WORK">TUTTI I LAVORI</p>
+      <h1 class="page-hero__title"
+        data-it="Progetti<span class=&quot;copper-dot&quot;>.</span>"
+        data-en="Projects<span class=&quot;copper-dot&quot;>.</span>">
+        Progetti<span class="copper-dot">.</span>
+      </h1>
+      <p class="page-hero__sub"
+        data-it="Podcast video, produzione YouTube, contenuti social e motion graphics."
+        data-en="Video podcasts, YouTube production, social content and motion graphics.">
+        Podcast video, produzione YouTube, contenuti social e motion graphics.
+      </p>
+    </div>
+  </section>
+
+  <!-- ── Projects grid ── -->
+  <section class="projects-section">
+    <div class="container">
+
+      <!-- Filter bar -->
+      <div class="filter-bar" id="filterBar">
+        <button class="filter-pill active" data-filter="all"
+          data-it="Tutti" data-en="All">Tutti</button>
+        <button class="filter-pill" data-filter="podcast"
+          data-it="Podcast" data-en="Podcast">Podcast</button>
+        <button class="filter-pill" data-filter="youtube"
+          data-it="YouTube" data-en="YouTube">YouTube</button>
+        <button class="filter-pill" data-filter="video verticali"
+          data-it="Video Verticali" data-en="Vertical Video">Video Verticali</button>
+        <button class="filter-pill" data-filter="motion graphics"
+          data-it="Motion Graphics" data-en="Motion Graphics">Motion Graphics</button>
+      </div>
+
+      <!-- Cards -->
+      <div class="cards-grid" id="projectsGrid">
+        <!-- Populated by JS -->
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── Footer ── -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer__left">
+          <h2 class="footer__cta"
+            data-it="Lavoriamo insieme<span class=&quot;copper-dot&quot;>.</span>"
+            data-en="Let's work together<span class=&quot;copper-dot&quot;>.</span>">
+            Lavoriamo insieme<span class="copper-dot">.</span>
+          </h2>
+          <a href="mailto:matteopirovano3@gmail.com" class="footer__email">matteopirovano3@gmail.com</a>
+        </div>
+        <div class="footer__right">
+          <nav class="footer__socials" aria-label="Social links">
+            <a href="https://www.linkedin.com/in/matteo-pirovano-8906a6246/" class="footer__social-link" target="_blank" rel="noopener">LinkedIn</a>
+          </nav>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <a href="index.html" class="footer__logo">piro<span class="copper-dot">.</span></a>
+        <p class="footer__copy"
+          data-it="© 2026 Matteo Pirovano" data-en="© 2026 Matteo Pirovano">© 2026 Matteo Pirovano</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/i18n.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
