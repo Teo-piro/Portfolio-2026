@@ -460,6 +460,7 @@ h1, h2, h3 { font-family: var(--serif); font-style: italic; font-weight: normal;
 
 .card__play--lg { font-size: 48px; }
 
+
 .card__content { padding: 20px; }
 
 .card__category {

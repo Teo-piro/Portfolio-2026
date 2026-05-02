@@ -1,8 +1,9 @@
 const projects = [
+  // ── 2026 ────────────────────────────────────────────────────────
   {
     id: 'fuori-brief',
     category: { it: 'Podcast', en: 'Podcast' },
-    year: 2025,
+    year: 2026,
     featured: true,
     client: 'Flatmates Agency',
     thumb: 'img/fuori-brief.jpg',
@@ -24,7 +25,7 @@ const projects = [
   {
     id: 'better-than-perfect',
     category: { it: 'Podcast', en: 'Podcast' },
-    year: 2025,
+    year: 2026,
     featured: false,
     client: 'Alessandro Mininno & Giacomo Scandolara',
     thumb: 'img/better-than-perfect.jpg',
@@ -46,7 +47,7 @@ const projects = [
   {
     id: 'morning-good',
     category: { it: 'Podcast', en: 'Podcast' },
-    year: 2025,
+    year: 2026,
     featured: false,
     client: 'Michele Pagani & Alessandro Mininno',
     thumb: 'img/morning-good.jpg',
@@ -68,7 +69,7 @@ const projects = [
   {
     id: 'generali-semplice-come',
     category: { it: 'Podcast', en: 'Podcast' },
-    year: 2025,
+    year: 2026,
     featured: true,
     client: 'Generali Italia',
     thumb: 'img/generali-semplice-come.avif',
@@ -90,7 +91,7 @@ const projects = [
   {
     id: 'zucchetti-changing-business',
     category: { it: 'Podcast', en: 'Podcast' },
-    year: 2025,
+    year: 2026,
     featured: true,
     client: 'Zucchetti',
     thumb: 'img/zucchetti-changing-business.avif',
@@ -110,31 +111,9 @@ const projects = [
     }
   },
   {
-    id: 'fastbook-podcast',
-    category: { it: 'Podcast', en: 'Podcast' },
-    year: 2025,
-    featured: false,
-    client: 'Fastbook (Gruppo Messaggerie)',
-    thumb: 'img/fastbook-podcast.webp',
-    videoEmbed: 'OXV5XuHo-4E',
-    title: { it: 'Fastbook Podcast', en: 'Fastbook Podcast' },
-    projectDesc: {
-      it: 'Un format editoriale che celebra la lettura e il mercato librario intervistando direttamente gli scrittori in occasione dell\'uscita dei loro nuovi libri, svelandone aneddoti e processi creativi.',
-      en: 'An editorial format that celebrates reading and the book market by directly interviewing authors upon the release of their new books, revealing anecdotes and creative processes.'
-    },
-    clientDesc: {
-      it: 'Fastbook (società del Gruppo Messaggerie) è l\'azienda leader in Italia nella distribuzione all\'ingrosso di prodotti editoriali e libri per le librerie.',
-      en: 'Fastbook (a company of the Messaggerie Group) is the leading wholesale distributor of editorial products and books for bookstores in Italy.'
-    },
-    whatIDid: {
-      it: 'Ho supportato le sessioni di registrazione fornendo la mia competenza tecnica per la microfonazione e l\'acquisizione dell\'audio, assicurando un risultato pulito e di alta qualità.',
-      en: 'I supported the recording sessions by providing my technical expertise for miking and audio capture, ensuring a clean and high-quality sound output.'
-    }
-  },
-  {
     id: 'raffaele-gaito-youtube',
     category: { it: 'YouTube', en: 'YouTube' },
-    year: 2025,
+    year: 2026,
     featured: false,
     client: 'Raffaele Gaito / Flatmates Agency',
     thumb: 'img/raffaele-gaito-youtube.avif',
@@ -156,9 +135,11 @@ const projects = [
   {
     id: 'adrian-fartade-youtube',
     category: { it: 'YouTube', en: 'YouTube' },
-    year: 2025,
+    year: 2026,
     featured: false,
     client: 'Adrian Fartade (Link4Universe) / Flatmates Agency',
+    thumb: 'img/adrian-fartade-youtube.webp',
+    videoEmbed: 'z8S38k8FdcE',
     title: { it: 'Produzione YouTube — Adrian Fartade', en: 'YouTube Production — Adrian Fartade' },
     projectDesc: {
       it: 'Supporto produttivo per la realizzazione di video educational e divulgativi ad alto impatto visivo, destinati a un vasto pubblico di appassionati di spazio e scienza.',
@@ -176,7 +157,7 @@ const projects = [
   {
     id: 'just-etf-youtube',
     category: { it: 'YouTube', en: 'YouTube' },
-    year: 2025,
+    year: 2026,
     featured: false,
     client: 'Just ETF',
     thumb: 'img/just-etf-youtube.avif',
@@ -198,7 +179,7 @@ const projects = [
   {
     id: 'investiamo-banca-profilo',
     category: { it: 'YouTube', en: 'YouTube' },
-    year: 2025,
+    year: 2026,
     featured: true,
     client: 'Tinaba / Banca Profilo / Flatmates Agency',
     thumb: 'img/investiamo-banca-profilo.webp',
@@ -220,7 +201,7 @@ const projects = [
   {
     id: 'satispay-social',
     category: { it: 'Video Verticali', en: 'Vertical Video' },
-    year: 2025,
+    year: 2026,
     featured: true,
     client: 'Satispay',
     thumb: 'img/satispay-social.png',
@@ -253,7 +234,7 @@ const projects = [
   {
     id: 'flatmates-social',
     category: { it: 'Video Verticali', en: 'Vertical Video' },
-    year: 2025,
+    year: 2026,
     featured: false,
     client: 'Flatmates Agency',
     thumb: 'img/flatmates-social.png',
@@ -271,6 +252,53 @@ const projects = [
     whatIDid: {
       it: 'Sono il responsabile tecnico per la produzione del 90% dei contenuti video pubblicati sui canali social dell\'agenzia. Dalle riprese veloci in studio al montaggio frenetico e ritmato tipico di TikTok e Instagram Reels.',
       en: 'I am the technical lead for the production of 90% of the video content published on the agency\'s social channels. My work spans from quick studio shoots to the fast-paced, rhythmic editing typical of TikTok and Instagram Reels.'
+    }
+  },
+  // ── 2025 ────────────────────────────────────────────────────────
+  {
+    id: 'app-io-pagopa',
+    category: { it: 'Video Verticali', en: 'Vertical Video' },
+    year: 2025,
+    featured: false,
+    client: 'APP IO / PagoPA',
+    thumb: 'img/app-io-pagopa.avif',
+    thumbFit: 'cover',
+    instagramUrl: 'https://www.instagram.com/reel/DLzEh6IshnF/',
+    instagramHandle: '@io_italiagov',
+    title: { it: 'APP IO — PagoPA Video Series', en: 'APP IO — PagoPA Video Series' },
+    projectDesc: {
+      it: 'Una serie di 6 video verticali creati per valorizzare le funzioni principali dell\'APP IO, l\'applicazione ufficiale dei servizi pubblici italiani. Il progetto punta a rendere accessibili e comprensibili le funzionalità digitali offerte dallo Stato, attraverso un linguaggio visivo moderno e diretto.',
+      en: 'A series of 6 vertical videos created to showcase the core features of APP IO, Italy\'s official public services app. The project aims to make the digital functionalities offered by the State accessible and understandable through a modern, direct visual language.'
+    },
+    clientDesc: {
+      it: 'APP IO è l\'app ufficiale del Governo Italiano sviluppata da PagoPA, che consente ai cittadini di accedere ai servizi della Pubblica Amministrazione direttamente dallo smartphone: messaggi, pagamenti, documenti e molto altro.',
+      en: 'APP IO is the official Italian Government app developed by PagoPA, allowing citizens to access Public Administration services directly from their smartphone: messages, payments, documents and much more.'
+    },
+    whatIDid: {
+      it: 'Il mio contributo si è concentrato sulla fase di riprese: ho gestito le sessioni di shooting per tutti e 6 i video della serie, curando l\'impostazione tecnica e visiva per restituire un risultato in linea con il tono istituzionale del brand.',
+      en: 'My contribution focused on the shooting phase: I managed the filming sessions for all 6 videos in the series, handling the technical and visual setup to deliver a result consistent with the brand\'s institutional tone.'
+    }
+  },
+  {
+    id: 'fastbook-podcast',
+    category: { it: 'Podcast', en: 'Podcast' },
+    year: 2025,
+    featured: false,
+    client: 'Fastbook (Gruppo Messaggerie)',
+    thumb: 'img/fastbook-podcast.webp',
+    videoEmbed: 'OXV5XuHo-4E',
+    title: { it: 'Fastbook Podcast', en: 'Fastbook Podcast' },
+    projectDesc: {
+      it: 'Un format editoriale che celebra la lettura e il mercato librario intervistando direttamente gli scrittori in occasione dell\'uscita dei loro nuovi libri, svelandone aneddoti e processi creativi.',
+      en: 'An editorial format that celebrates reading and the book market by directly interviewing authors upon the release of their new books, revealing anecdotes and creative processes.'
+    },
+    clientDesc: {
+      it: 'Fastbook (società del Gruppo Messaggerie) è l\'azienda leader in Italia nella distribuzione all\'ingrosso di prodotti editoriali e libri per le librerie.',
+      en: 'Fastbook (a company of the Messaggerie Group) is the leading wholesale distributor of editorial products and books for bookstores in Italy.'
+    },
+    whatIDid: {
+      it: 'Ho supportato le sessioni di registrazione fornendo la mia competenza tecnica per la microfonazione e l\'acquisizione dell\'audio, assicurando un risultato pulito e di alta qualità.',
+      en: 'I supported the recording sessions by providing my technical expertise for miking and audio capture, ensuring a clean and high-quality sound output.'
     }
   },
   {

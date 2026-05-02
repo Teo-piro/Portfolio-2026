@@ -10,8 +10,7 @@ function createProjectCard(project) {
       '<a href="project.html?id=' + project.id + '" class="card__link">' +
         '<div class="card__image">' +
           (project.thumb
-            ? '<img src="' + project.thumb + '" alt="' + project.title[lang] + '" loading="lazy" style="object-fit:' + (project.thumbFit || 'contain') + '">' +
-              (project.videoEmbed ? '<div class="card__play-overlay"><span class="card__play-btn">&#9654;</span></div>' : '')
+            ? '<img src="' + project.thumb + '" alt="' + project.title[lang] + '" loading="lazy" style="object-fit:' + (project.thumbFit || 'contain') + '">'
             : '<div class="card__image-inner"><span class="card__play">&#9654;</span></div>') +
         '</div>' +
         '<div class="card__content">' +
@@ -221,7 +220,7 @@ window.renderProjectDetail = function () {
             '<circle cx="12" cy="12" r="4.5" stroke="white" stroke-width="1.5"/>' +
             '<circle cx="17.5" cy="6.5" r="1" fill="white"/>' +
           '</svg>' +
-          '<p class="detail__ig-handle">@flatmatesagency</p>' +
+          '<p class="detail__ig-handle">' + (project.instagramHandle || '@flatmatesagency') + '</p>' +
           '<span class="detail__ig-cta">' + igProfile + ' →</span>' +
         '</div>' +
       '</a>';
